@@ -1,5 +1,5 @@
-Androidsx - playground
-======================
+Androidsx
+=========
 
 Just some bits of general documentation.
 
