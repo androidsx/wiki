@@ -5,9 +5,10 @@ Just some bits of general documentation.
 
 ### Our git workflow
 
-Our workflow is pretty much the same as the one they use at GitHub. It is well described [in this post].
+Our workflow is pretty much the same as the one they use at GitHub. It is well described [in this post]. Also, even better explained, see [this official guide].
 
 [in this post]:http://scottchacon.com/2011/08/31/github-flow.html
+[this official guide]:http://guides.github.com/overviews/flow/
 
 ### How to clone and configure your workspace in Eclipse
 
