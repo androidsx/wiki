@@ -77,3 +77,7 @@ Now push to a newly created repo:
 Very simple steps [outlined here].
 
 [outlined here]:https://help.github.com/articles/splitting-a-subpath-out-into-a-new-repository
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/androidsx/wiki/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
