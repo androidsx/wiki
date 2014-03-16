@@ -10,6 +10,36 @@ Our workflow is pretty much the same as the one they use at GitHub. It is well d
 [in this post]:http://scottchacon.com/2011/08/31/github-flow.html
 [this official guide]:http://guides.github.com/overviews/flow/
 
+#### Java code style
+
+We follow [Google's style guide]. The only notable exception is the column limit: we ues 120 characters (not 80 or 100). Screens are wide enough nowadays.
+
+But, above all others, *consistency* is the most important rule: follow the conventions of the file you're working on.
+
+[Google's style guide]:http://google-styleguide.googlecode.com/svn/trunk/javaguide.html
+
+#### Java/Android programming conventions
+
+We agree on the conventions laid out in [iwombat's Guidelines]. The only (minor) inconsistency with our code style is the blank line they leave after class and method javadoc comments: we follow the official javadoc recommendation and omit it.
+
+Also, [iwombat's Exception Standards] are a good read on good practices for exception handling.
+
+The Android Developers site also has a small set of guidelines: [Code Style Guidelines for Contributors]. We follow it except for the naming conventions for fields: we stick to general Java's guidelines and do not prepend fields with _m_ or _s_. And, again, the 120 column limit.
+
+[iwombat's Guidelines]:http://www.iwombat.com/standards/JavaStyleGuide.html
+[iwombat's Exception Standards]:http://www.iwombat.com/standards/ExceptionStandards.html
+[Code Style Guidelines for Contributors]:https://source.android.com/source/code-style.html
+
+### Java code formatting
+
+If you use Eclipse, go to Window -> Preferences → Java → Code Style → Formatters, and then import [this XML file]. If you use IntelliJ, well, you’re on your own!
+
+Again, remember that, in any case, the most important rule is to be consistent with the existing style of the project/file you're working on.
+
+[this XML file]:https://dl.dropbox.com/s/u4wdr9xpy99kdag/2012-03-28-androidsx-formatting.xml
+
+## Misc tips
+
 ### How to clone and configure your workspace in Eclipse
 
 The basic steps are the following:
@@ -39,17 +69,7 @@ These instructions are copy-pasteable into your terminal if you just assign your
 [this script]:https://github.com/kremso/cpew/blob/master/cpew
 [this answer on stack overflow]:http://stackoverflow.com/a/2484349/106342
 
-### Code formatting
-
-If you use Eclipse, go to Window -> Preferences → Java → Code Style → Formatters, and then import [this XML file]. If you use IntelliJ, well, you’re on your own!
-
-In any case, the most important rule is to be consistent: follow the conventions of the file you’re working on.
-
-[this XML file]:https://dl.dropbox.com/s/u4wdr9xpy99kdag/2012-03-28-androidsx-formatting.xml
-
-## Misc tips
-
-### How to remove folders and its history
+### How to remove folders and its history from Git
 
 First, take [this script in GitHub's wiki]e and save it as "git-delete-history".
 
