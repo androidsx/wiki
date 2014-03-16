@@ -10,7 +10,15 @@ Our workflow is pretty much the same as the one they use at GitHub. It is well d
 [in this post]:http://scottchacon.com/2011/08/31/github-flow.html
 [this official guide]:http://guides.github.com/overviews/flow/
 
-#### Java code style
+### A note about commit messages
+
+A commit is a logically separate changeset. It is not a bunch of unrelated changes that you're sending to the repository for backup. For instance, you just fixed a bug (so, your commit message would read something like _Fixed crash on startup for images larger than 5MBs_), implemented a few feature (e.g. _Added support for animated GIFs_), did some internal change (e.g. _Moved the video editing logic out of the full-view activity_). It can also be an intermediate step towards a big feature, but it needs to be easy to describe and self-contained. If you need to use the word _and_, it usually means you're doing it wrong.
+
+As for Git-specific guidelines, see the first sections of [Git's contribution guidelines].
+
+[Git's contribution guidelines]:http://git-scm.com/book/ch5-2.html
+
+### Java code style
 
 We follow [Google's style guide]. The only notable exception is the column limit: we ues 120 characters (not 80 or 100). Screens are wide enough nowadays.
 
@@ -18,7 +26,7 @@ But, above all others, *consistency* is the most important rule: follow the conv
 
 [Google's style guide]:http://google-styleguide.googlecode.com/svn/trunk/javaguide.html
 
-#### Java/Android programming conventions
+### Java/Android programming conventions
 
 We agree on the conventions laid out in [iwombat's Guidelines]. The only (minor) inconsistency with our code style is the blank line they leave after class and method javadoc comments: we follow the official javadoc recommendation and omit it.
 
