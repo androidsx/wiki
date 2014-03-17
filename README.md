@@ -56,7 +56,7 @@ The basic steps are the following:
 2. Open Eclipse and set the `PROJECT` folder as the root directory for the workspace
 3. Import all projects from the `PROJECT` folder: _File_ -> _Import_ -> _Existing Projects into Workspace_
 
-However, if you already have an Eclipse workspace with a nice config you like (shortcuts, templates, fonts, etc), use [this script] (renamed to `new-workspace.sh` below) to copy it into our new workspace:
+However, if you already have an Eclipse workspace with a nice config you like (shortcuts, templates, fonts, etc), use [this script], renamed to `new-workspace.sh` below, to copy it into our new workspace:
 
     ./new-workspace.sh $EXISTING_WORKSPACE $NEW_WORKSPACE
     
