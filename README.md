@@ -7,8 +7,11 @@ Just some bits of general documentation.
 
 Our workflow is pretty much the same as the one they use at GitHub. It is well described [in this post]. Also, even better explained, see [this official guide].
 
+If you're new to Git... good luck! There's a lot of information out there. Spend some time experimenting with the main commands [in this playground].
+
 [in this post]:http://scottchacon.com/2011/08/31/github-flow.html
 [this official guide]:http://guides.github.com/overviews/flow/
+[in this playground]:http://try.github.io/
 
 ### A note about commit messages
 
