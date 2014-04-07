@@ -48,6 +48,24 @@ Again, remember that, in any case, the most important rule is to be consistent w
 
 ## Misc tips
 
+### Effective naming
+
+Proper naming is essential to make code understandable to others.
+
+The most important check for a proper name for any element is: when you have to describe that element, do you use the words in its name? If you don't, the name of that package/class/method/variable/constant is most likely wrong.
+
+Class names are always nouns. For instance, `Car`, `ConfirmationDialog`, `LoginFragment`.
+
+Interfaces names are usually adjectives, such as `Observable` or `Clonable`. They are also use to define the public operations of domain objects, so nouns are acceptable 
+
+Method names are always verbs, such as `setHeight`, `sendArticle` or `getDefaultCoverImage`.
+
+Variable names usually take their name from their type, such as `car`, `confirmationDialog` or `loginFragment`.
+
+Read the section on Naming Conventions from [this University's Style Guide].
+
+[this University's Style Guide]:http://www.cwu.edu/~gellenbe/javastyle/naming.html
+
 ### How to clone and configure your workspace in Eclipse
 
 The basic steps are the following:
