@@ -130,3 +130,9 @@ Very simple steps [outlined here].
 
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/androidsx/wiki/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
 
+
+### Useful git scripts
+
+* [`git-up`] to sync all local branches with the remote ones
+
+[`git-up`]:https://github.com/aanand/git-up
