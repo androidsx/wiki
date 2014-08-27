@@ -127,12 +127,20 @@ Very simple steps [outlined here].
 
 [outlined here]:https://help.github.com/articles/splitting-a-subpath-out-into-a-new-repository
 
+### How to create a sample animated GIF
 
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/androidsx/wiki/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+Useful for a quick demo, like the one in https://github.com/androidsx/jog-tracker. Follow these steps:
 
+    NAMESPACE=v2
+    DELAY=35
+    for i in `seq -w 1 1 300`; do adb shell screencap -p | perl -pe 's/\x0D\x0A/\x0A/g' > $NAMESPACE-$(date +%Y%m%d-%H%M%S).png; echo -e "Took screenshot $i"; done;
+    for i in `ls $NAMESPACE-*.png`; do convert $i -scale 50% $i.gif; done;
+    convert -delay $DELAY -loop 0 $NAMESPACE-*.gif animated-$NAMESPACE-$DELAY.gif
 
 ### Useful git scripts
 
 * [`git-up`] to sync all local branches with the remote ones
 
 [`git-up`]:https://github.com/aanand/git-up
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/androidsx/wiki/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
