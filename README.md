@@ -3,6 +3,27 @@ Androidsx
 
 Just some bits of general documentation.
 
+### Our tools
+
+* [Google Apps] for e-mail, calendar, docs, and video-conferencing (via Hangouts)
+* _git_ for version control
+* [GitHub] as the git repository
+* [Slack] for team communication
+* [Eclipse ADT] as the IDE for projects created before August 2014
+* [Android Studio] as the IDE for projects created in August 2014 or later
+* [Crashlytics] for crash reporting
+* [Flurry] for detailed analytics
+* [Google Analytics] for high-level analytics
+
+[Google Apps]:http://www.google.com/enterprise/apps/business/
+[GitHub]:http://www.github.com
+[Slack]:http://www.slack.com
+[Eclipse ADT]:http://developer.android.com/tools/sdk/eclipse-adt.html
+[Android Studio]:https://developer.android.com/sdk/installing/studio.html
+[Crashlytics]:https://www.crashlytics.com
+[Flurry]:http://flurry.com
+[Google Analytics]:http://analytics.google.com
+
 ### Our git workflow
 
 Our workflow is pretty much the same as the one they use at GitHub. It is well described [in this post]. Also, even better explained, see [this official guide].
