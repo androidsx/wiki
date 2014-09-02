@@ -9,6 +9,7 @@ Just some bits of general documentation.
 * _git_ for version control
 * [GitHub] as the git repository
 * [Slack] for team communication
+* [Trello] for task management
 * [Eclipse ADT] as the IDE for projects created before August 2014
 * [Android Studio] as the IDE for projects created in August 2014 or later
 * [Crashlytics] for crash reporting
@@ -18,6 +19,7 @@ Just some bits of general documentation.
 [Google Apps]:http://www.google.com/enterprise/apps/business/
 [GitHub]:http://www.github.com
 [Slack]:http://www.slack.com
+[Trello]:http://www.trello.com
 [Eclipse ADT]:http://developer.android.com/tools/sdk/eclipse-adt.html
 [Android Studio]:https://developer.android.com/sdk/installing/studio.html
 [Crashlytics]:https://www.crashlytics.com
