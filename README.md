@@ -15,6 +15,8 @@ Just some bits of general documentation.
 * [Crashlytics] for crash reporting
 * [Flurry] for detailed analytics
 * [Google Analytics] for high-level analytics
+* [Jenkins] for the continuous build
+* [Hockey App] to circulate alpha and beta versions
 
 [Google Apps]:http://www.google.com/enterprise/apps/business/
 [GitHub]:http://www.github.com
@@ -25,6 +27,8 @@ Just some bits of general documentation.
 [Crashlytics]:https://www.crashlytics.com
 [Flurry]:http://flurry.com
 [Google Analytics]:http://analytics.google.com
+[Jenkins]:http://jenkins-ci.org/
+[Hockey App]:hockeyapp.com
 
 ### Our git workflow
 
