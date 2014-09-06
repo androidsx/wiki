@@ -15,7 +15,7 @@ Just some bits of general documentation.
 * [Crashlytics] for crash reporting
 * [Flurry] for detailed analytics
 * [Google Analytics] for high-level analytics
-* [Jenkins] for the continuous build
+* [Jenkins] for the continuous build, hosted at CloudBees
 * [Hockey App] to circulate alpha and beta versions
 
 [Google Apps]:http://www.google.com/enterprise/apps/business/
@@ -29,6 +29,7 @@ Just some bits of general documentation.
 [Google Analytics]:http://analytics.google.com
 [Jenkins]:http://jenkins-ci.org/
 [Hockey App]:hockeyapp.com
+[CloudBees]:https://androidsx.ci.cloudbees.com/
 
 ### Our git workflow
 
