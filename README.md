@@ -91,6 +91,16 @@ Can't recommend [Effective Java] enough. If you haven't, just go ahead and study
 
 [Head First Design Patterns]:http://www.amazon.com/Head-First-Design-Patterns-Freeman/dp/0596007124/ref=pd_bxgy_b_img_z
 
+### Testable code
+
+Testable code usually means _good_ code. You can find a great guide at what writing testable code means [in this post] (nicely formatted [in a PDF here]).
+
+While you're here, set aside some time and watch the [_Clean Code Talks_ by Misko Hevery]. It's just genious.
+
+[in this post]:http://misko.hevery.com/code-reviewers-guide/
+[in a PDF here]:http://misko.hevery.com/attachments/Guide-Writing%20Testable%20Code.pdf
+[_Clean Code Talks_ by Misko Hevery]:https://www.youtube.com/watch?v=wEhu57pih5w&list=PLD0011D00849E1B79
+
 ## Misc tips
 
 ### Effective naming
