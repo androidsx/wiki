@@ -195,4 +195,14 @@ Useful for a quick demo, like the one in https://github.com/androidsx/jog-tracke
 
 [`git-up`]:https://github.com/aanand/git-up
 
+### Useful Gradle tips
+
+How to make Gradle builds in Android Studio _much_ faster:
+
+- First, open Preferences -> Compiler, check "Compile independent modules in parallel"
+- Then, in the box for VM Options, set `-Xmx2048m -XX:MaxPermSize=512m`
+- Last, go to Preferences -> Gradle and check "Offline work" in the "Global Gradle settings" section
+
+
+
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/androidsx/wiki/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
