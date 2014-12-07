@@ -196,9 +196,11 @@ Useful for a quick demo, like the one in https://github.com/androidsx/jog-tracke
 * Configure your git configuration (aliases, syntax coloring, etc). Follow https://github.com/SixArm/sixarm_git_gitconfig for a very well-organized config
 * Configure your prompt (PS1) with https://github.com/vergenzt/git-colored-ps1
 * [`git-wtf`] to quickly know the status of your repo
+* [`git-publish-branch`] to publish local branches easily
 
 [`git-up`]:https://github.com/aanand/git-up
 [`git-wtf`]:https://gitorious.org/willgit/mainline/source/a84bba3726a19bc78086852d54bb0219ea1bb6f9:bin/git-wtf
+[`git-publish-branch`]:https://gitorious.org/willgit/mainline/source/a84bba3726a19bc78086852d54bb0219ea1bb6f9:bin/git-publish-branch
 
 ### Useful Gradle tips
 
