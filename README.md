@@ -195,8 +195,10 @@ Useful for a quick demo, like the one in https://github.com/androidsx/jog-tracke
 * Configure git auto-completion for branch names from the command line. Download https://github.com/git/git/blob/master/contrib/completion/git-completion.bash to your HOME, and add `source ~/.git-completion.bash` to your `.bash_profile` or `.bashrc`.
 * Configure your git configuration (aliases, syntax coloring, etc). Follow https://github.com/SixArm/sixarm_git_gitconfig for a very well-organized config
 * Configure your prompt (PS1) with https://github.com/vergenzt/git-colored-ps1
+* [`git-wtf`] to quickly know the status of your repo
 
 [`git-up`]:https://github.com/aanand/git-up
+[`git-wtf`]:https://gitorious.org/willgit/mainline/source/a84bba3726a19bc78086852d54bb0219ea1bb6f9:bin/git-wtf
 
 ### Useful Gradle tips
 
