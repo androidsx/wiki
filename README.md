@@ -193,6 +193,7 @@ Useful for a quick demo, like the one in https://github.com/androidsx/jog-tracke
 
 * [`git-up`] to sync all local branches with the remote ones
 * Configure git auto-completion for branch names from the command line. Download https://github.com/git/git/blob/master/contrib/completion/git-completion.bash to your HOME, and add `source ~/.git-completion.bash` to your `.bash_profile` or `.bashrc`.
+* Configure your git configuration (aliases, syntax coloring, etc). Follow https://github.com/SixArm/sixarm_git_gitconfig for a very well-organized config
 
 [`git-up`]:https://github.com/aanand/git-up
 
