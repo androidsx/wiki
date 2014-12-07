@@ -189,9 +189,10 @@ Useful for a quick demo, like the one in https://github.com/androidsx/jog-tracke
     for i in `ls $NAMESPACE-*.png`; do convert $i -scale 50% $i.gif; done;
     convert -delay $DELAY -loop 0 $NAMESPACE-*.gif animated-$NAMESPACE-$DELAY.gif
 
-### Useful git scripts
+### Useful git scripts and configuration
 
 * [`git-up`] to sync all local branches with the remote ones
+* Configure git auto-completion for branch names from the command line. Download https://github.com/git/git/blob/master/contrib/completion/git-completion.bash to your HOME, and add `source ~/.git-completion.bash` to your `.bash_profile` or `.bashrc`.
 
 [`git-up`]:https://github.com/aanand/git-up
 
