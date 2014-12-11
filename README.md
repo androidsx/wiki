@@ -221,6 +221,7 @@ Additionally, this will speed them up noticeably in Android Studio:
 - Then, in the box for VM Options, set `-Xmx2048m -XX:MaxPermSize=512m`
 - Last, go to Preferences -> Gradle and check "Offline work" in the "Global Gradle settings" section
 
+To have them fly in your Continuous Build, follow the simple steps in http://tools.android.com/tech-docs/new-build-system/tips#TOC-Improving-Build-Server-performance. to disable pre-dexing of libraries on your continuous build, since we're "cleaning" every time there anyway. However, this has funny consequencies if you're doing multi-dex tricks to work around the 65k method limit.
 
 
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/androidsx/wiki/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
