@@ -208,7 +208,14 @@ Useful for a quick demo, like the one in https://github.com/androidsx/jog-tracke
 
 ### Useful Gradle tips
 
-How to make Gradle builds in Android Studio _much_ faster:
+How to make Gradle builds much faster in your local machine: create the file `~/.gradle/gradle.properties` with these two lines (source here):
+
+    org.gradle.parallel=true
+    org.gradle.daemon=true
+
+[source here]:http://stackoverflow.com/a/23257056/106342
+
+Additionally, this will speed them up noticeably in Android Studio:
 
 - First, open Preferences -> Compiler, check "Compile independent modules in parallel"
 - Then, in the box for VM Options, set `-Xmx2048m -XX:MaxPermSize=512m`
