@@ -189,10 +189,42 @@ Useful for a quick demo, like the one in https://github.com/androidsx/jog-tracke
     for i in `ls $NAMESPACE-*.png`; do convert $i -scale 50% $i.gif; done;
     convert -delay $DELAY -loop 0 $NAMESPACE-*.gif animated-$NAMESPACE-$DELAY.gif
 
+### Git configuration
+
+
+* Configure git auto-completion for branch names from the command line. Download https://github.com/git/git/blob/master/contrib/completion/git-completion.bash to your HOME, and add `source ~/.git-completion.bash` to your `.bash_profile` or `.bashrc`.
+* Configure your git configuration (aliases, syntax coloring, etc). Follow https://github.com/SixArm/sixarm_git_gitconfig for a very well-organized config
+* Configure your prompt (PS1) with https://github.com/vergenzt/git-colored-ps1
+
 ### Useful git scripts
 
 * [`git-up`] to sync all local branches with the remote ones
+* [`git-wtf`] to quickly know the status of your repo
+* [`git-publish-branch`] to publish local branches easily
 
 [`git-up`]:https://github.com/aanand/git-up
+[`git-wtf`]:https://gitorious.org/willgit/mainline/source/a84bba3726a19bc78086852d54bb0219ea1bb6f9:bin/git-wtf
+[`git-publish-branch`]:https://gitorious.org/willgit/mainline/source/a84bba3726a19bc78086852d54bb0219ea1bb6f9:bin/git-publish-branch
+
+### Useful Gradle tips
+
+How to make Gradle builds much faster in your local machine: create the file `~/.gradle/gradle.properties` with these two lines (source here):
+
+    org.gradle.parallel=true
+    org.gradle.daemon=true
+
+[source here]:http://stackoverflow.com/a/23257056/106342
+
+Additionally, this will speed them up noticeably in Android Studio:
+
+- First, open Preferences -> Compiler, check "Compile independent modules in parallel"
+- Then, in the box for VM Options, set `-Xmx2048m -XX:MaxPermSize=512m`
+- Last, go to Preferences -> Gradle and check "Offline work" in the "Global Gradle settings" section
+
+To have them fly in your Continuous Build, follow the simple steps in http://tools.android.com/tech-docs/new-build-system/tips#TOC-Improving-Build-Server-performance. to disable pre-dexing of libraries on your continuous build, since we're "cleaning" every time there anyway. However, this has funny consequencies if you're doing multi-dex tricks to work around the 65k method limit.
+
+### Mac tips
+
+- Use `kdiff3` as the diff/merge tool. Instructions to configure here: http://naleid.com/blog/2012/01/12/how-to-use-kdiff3-as-a-3-way-merge-tool-with-mercurial-git-and-tower-app. The configuration changes if you installed sixarm (see above), but it's fairly easy anyway. Many merge conflicts are fixed without even having to open the tool, which feels pretty good. It sometimes screwes up, though, so be sure to check for funny syntax issues.
 
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/androidsx/wiki/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
