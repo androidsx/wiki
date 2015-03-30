@@ -198,13 +198,21 @@ Useful for a quick demo, like the one in https://github.com/androidsx/jog-tracke
 
 ### Useful git scripts
 
+Only start using these after you are fluent with Git.
+
 * [`git-up`] to sync all local branches with the remote ones
 * [`git-wtf`] to quickly know the status of your repo
 * [`git-publish-branch`] to publish local branches easily
+* [`git pulls`] to list and merge pull requests. Still look
+
+There are other extensions that pimp out your Git commands much more, such as `gitflow` or `hub`, but we're not using them. Up to you, though.
 
 [`git-up`]:https://github.com/aanand/git-up
 [`git-wtf`]:https://gitorious.org/willgit/mainline/source/a84bba3726a19bc78086852d54bb0219ea1bb6f9:bin/git-wtf
 [`git-publish-branch`]:https://gitorious.org/willgit/mainline/source/a84bba3726a19bc78086852d54bb0219ea1bb6f9:bin/git-publish-branch
+[`git pulls`]:https://github.com/schacon/git-pulls
+[`git flow`]:https://github.com/nvie/gitflow
+[`hub`]:https://github.com/github/hub
 
 ### Useful Gradle tips
 
