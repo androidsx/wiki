@@ -31,6 +31,20 @@ Just some bits of general documentation.
 [Hockey App]:hockeyapp.com
 [CloudBees]:https://androidsx.ci.cloudbees.com/
 
+Other tools we recommend using (for Mac):
+
+* [Homebrew] for software package management
+* [iTerm2] as a better terminal
+* [Sublime] for a good text editor. Also, check [this guide] to use it from your terminal
+* [LastPass] for password management
+
+[Homebrew]:http://brew.sh
+[iTerm2]:http://www.iterm2.com
+[Sublime]:http://www.sublimetext.com/
+[this guide]:https://gist.github.com/olivierlacan/1195304
+[LastPass]:https://lastpass.com/
+
+
 ### Our git workflow
 
 Our workflow is pretty much the same as the one they use at GitHub. It is well described [in this post]. Also, even better explained, see [this official guide].
