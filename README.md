@@ -250,3 +250,7 @@ To have them fly in your Continuous Build, follow the simple steps in http://too
 - Use `kdiff3` as the diff/merge tool. Instructions to configure here: http://naleid.com/blog/2012/01/12/how-to-use-kdiff3-as-a-3-way-merge-tool-with-mercurial-git-and-tower-app. The configuration changes if you installed sixarm (see above), but it's fairly easy anyway. Many merge conflicts are fixed without even having to open the tool, which feels pretty good. It sometimes screwes up, though, so be sure to check for funny syntax issues.
 
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/androidsx/wiki/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
+### Script for poster
+
+See the file `print-all-source-code.sh`
