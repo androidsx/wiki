@@ -37,12 +37,14 @@ Other tools we recommend using (for Mac):
 * [iTerm2] as a better terminal
 * [Sublime] for a good text editor. Also, check [this guide] to use it from your terminal
 * [LastPass] for password management
+* [SizeUp], a great window manager
 
 [Homebrew]:http://brew.sh
 [iTerm2]:http://www.iterm2.com
 [Sublime]:http://www.sublimetext.com/
 [this guide]:https://gist.github.com/olivierlacan/1195304
 [LastPass]:https://lastpass.com/
+[SizeUp]:http://www.irradiatedsoftware.com/sizeup/
 
 
 ### Our git workflow
