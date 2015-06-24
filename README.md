@@ -31,6 +31,24 @@ Just some bits of general documentation.
 [Hockey App]:hockeyapp.com
 [CloudBees]:https://androidsx.ci.cloudbees.com/
 
+Other tools we recommend using (for Mac):
+
+* [Homebrew] for software package management
+* [iTerm2] as a better terminal
+* [Sublime] for a good text editor. Also, check [this guide] to use it from your terminal
+* [Skitch] to quickly take and edit screenshots
+* [LastPass] for password management
+* [SizeUp], a great window manager
+
+[Homebrew]:http://brew.sh
+[iTerm2]:http://www.iterm2.com
+[Sublime]:http://www.sublimetext.com/
+[this guide]:https://gist.github.com/olivierlacan/1195304
+[Skitch]:https://itunes.apple.com/us/app/skitch-snap.-mark-up.-share./id425955336?mt=12
+[LastPass]:https://lastpass.com/
+[SizeUp]:http://www.irradiatedsoftware.com/sizeup/
+
+
 ### Our git workflow
 
 Our workflow is pretty much the same as the one they use at GitHub. It is well described [in this post]. Also, even better explained, see [this official guide].
@@ -203,14 +221,12 @@ Only start using these after you are fluent with Git.
 * [`git-up`] to sync all local branches with the remote ones
 * [`git-wtf`] to quickly know the status of your repo
 * [`git-publish-branch`] to publish local branches easily
-* [`git pulls`] to list and merge pull requests. Still look
 
 There are other extensions that pimp out your Git commands much more, such as `gitflow` or `hub`, but we're not using them. Up to you, though.
 
 [`git-up`]:https://github.com/aanand/git-up
 [`git-wtf`]:https://gitorious.org/willgit/mainline/source/a84bba3726a19bc78086852d54bb0219ea1bb6f9:bin/git-wtf
 [`git-publish-branch`]:https://gitorious.org/willgit/mainline/source/a84bba3726a19bc78086852d54bb0219ea1bb6f9:bin/git-publish-branch
-[`git pulls`]:https://github.com/schacon/git-pulls
 [`git flow`]:https://github.com/nvie/gitflow
 [`hub`]:https://github.com/github/hub
 
@@ -236,3 +252,7 @@ To have them fly in your Continuous Build, follow the simple steps in http://too
 - Use `kdiff3` as the diff/merge tool. Instructions to configure here: http://naleid.com/blog/2012/01/12/how-to-use-kdiff3-as-a-3-way-merge-tool-with-mercurial-git-and-tower-app. The configuration changes if you installed sixarm (see above), but it's fairly easy anyway. Many merge conflicts are fixed without even having to open the tool, which feels pretty good. It sometimes screwes up, though, so be sure to check for funny syntax issues.
 
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/androidsx/wiki/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
+### Script for poster
+
+See the file `print-all-source-code.sh`
