@@ -1,5 +1,5 @@
 #!/bin/bash
-# Prints all the source code of the YayCam/Helium apps in one huge line
+# Prints all the source code of the talking-shit apps in one huge line
 
 FOLDERS=(
 	~/workspaces/talking-shit/android/app-helium-video-changer/src/com/androidsx/heliumvideochanger/
