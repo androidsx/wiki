@@ -247,6 +247,10 @@ Additionally, this will speed them up noticeably in Android Studio:
 
 To have them fly in your Continuous Build, follow the simple steps in http://tools.android.com/tech-docs/new-build-system/tips#TOC-Improving-Build-Server-performance. to disable pre-dexing of libraries on your continuous build, since we're "cleaning" every time there anyway. However, this has funny consequencies if you're doing multi-dex tricks to work around the 65k method limit.
 
+### Code review tips
+
+Great article: http://kevinlondon.com/2015/05/05/code-review-best-practices.html
+
 ### Mac tips
 
 - Use `kdiff3` as the diff/merge tool. Instructions to configure here: http://naleid.com/blog/2012/01/12/how-to-use-kdiff3-as-a-3-way-merge-tool-with-mercurial-git-and-tower-app. The configuration changes if you installed sixarm (see above), but it's fairly easy anyway. Many merge conflicts are fixed without even having to open the tool, which feels pretty good. It sometimes screwes up, though, so be sure to check for funny syntax issues.
