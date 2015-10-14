@@ -14,6 +14,7 @@ Just some bits of general documentation.
 * [Android Studio] as the IDE for projects created in August 2014 or later
 * [Crashlytics] for crash reporting
 * [Flurry] for detailed analytics
+* [Localytics] for analytics with better segmentation capabilities
 * [Google Analytics] for high-level analytics
 * [Jenkins] for the continuous build, hosted at CloudBees
 * [Hockey App] to circulate alpha and beta versions
@@ -26,6 +27,7 @@ Just some bits of general documentation.
 [Android Studio]:https://developer.android.com/sdk/installing/studio.html
 [Crashlytics]:https://www.crashlytics.com
 [Flurry]:http://flurry.com
+[Localytics]:http://localytics.com
 [Google Analytics]:http://analytics.google.com
 [Jenkins]:http://jenkins-ci.org/
 [Hockey App]:hockeyapp.com
