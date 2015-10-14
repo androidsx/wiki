@@ -253,10 +253,10 @@ Great article: http://kevinlondon.com/2015/05/05/code-review-best-practices.html
 
 ### Mac tips
 
-- Use `kdiff3` as the diff/merge tool. Instructions to configure here: http://naleid.com/blog/2012/01/12/how-to-use-kdiff3-as-a-3-way-merge-tool-with-mercurial-git-and-tower-app. The configuration changes if you installed sixarm (see above), but it's fairly easy anyway. Many merge conflicts are fixed without even having to open the tool, which feels pretty good. It sometimes screwes up, though, so be sure to check for funny syntax issues.
-
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/androidsx/wiki/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+- Use `kdiff3` as the diff/merge tool. It's ugly, but works well. Install with `brew install kdiff3` and set as the default with `git config --global merge.tool kdiff3`. Here's a quick guide on how to use it: http://www.gitguys.com/topics/merging-with-a-gui/
 
 ### Script for poster
 
-See the file `print-all-source-code.sh`
+See the file `print-all-source-code.sh`.
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/androidsx/wiki/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
