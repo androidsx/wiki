@@ -105,7 +105,7 @@ Can't recommend [Effective Java] enough. If you haven't, just go ahead and study
 
 [Effective Java]:http://www.amazon.com/Effective-Java-Edition-Joshua-Bloch/dp/0321356683
 
-### Head First Desgin Patterns
+### Head First Design Patterns
 
 [Head First Design Patterns] is probably the best introductory book about design patterns. Definitely a must.
 
